@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+public static void main(String[] args) {
+    int a;
+    int b;
+    int c;
+    int d;
+    Scanner sc=new Scanner(System.in);
+    a=sc.nextInt();
+    b=sc.nextInt();
+    c=sc.nextInt();
+    d=sc.nextInt();
+    System.out.println("Items Details");
+    System.out.println("A4sheet:"+a);
+    System.out.println("Pen:"+b);
+    System.out.println("Pencil:"+c);
+    System.out.println("Eraser:"+d);
+     
+     
+        
+        
+    
+    }
+}
