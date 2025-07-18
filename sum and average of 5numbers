@@ -1,0 +1,19 @@
+import java.util.*;
+import java.math.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int e=sc.nextInt();
+        int sum=a+b+c+d+e;
+        float avg=(float)((a+b+c+d+e)/5.0);
+        System.out.println("Sum of the 5 number is : "+sum);
+        System.out.println("Average of the 5 number is : "+avg);
+        
+    }
+}
