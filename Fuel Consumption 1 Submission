@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+     Scanner sc=new Scanner(System.in);
+     int lit=sc.nextInt();
+     int dist=sc.nextInt();
+     if((lit<=0)||(dist<=0)){
+         System.out.println("Invalid Input");
+     }
+     else{
+     double a=((double)lit/dist)*100.00;
+     float b=(float)(dist*0.6214);
+     float c=(float)(lit*0.2642);
+     float m=(b/c);
+     System.out.println("Liters/100KM");
+     System.out.printf("%.2f",a);
+     System.out.println("\nMiles/gallons");
+     System.out.printf("%.2f",m);
+      }
+    }
+
+    
+}
