@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+        float pos=0;
+        float neg=0;
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        for(int i=0;i<size;i++)
+        {
+            if(arr[i]>0)
+                pos++;
+            else
+                neg++;
+        }
+        System.out.printf("Count of Positive Integer is %.2f",pos);
+        System.out.printf("\nCount of Negative Integer is %.2f",neg);
+
+            
+    }
+}
