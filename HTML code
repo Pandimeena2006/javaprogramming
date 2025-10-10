@@ -1,0 +1,102 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+ 
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <div class="logo">Pandi Meena</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><button id="dark-mode-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="banner">
+        <div class="container">
+         <div class="banner-text">
+        <h2>Hi,<br>I'm Pandi Meena<br> Full Stack Devoloper</h2>
+        <p>Full Stack Developer | Passionate about creating amazing websites.<br>
+        I'm a passionate web developer creating amazing websites.</p>
+        <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="banner-img">
+            <img src="Meena-image.jpg" alt="Banner Image">
+        </div>
+        </div>
+  </section>
+
+    
+    <section id="about">
+        <h2>About Pandi Meena</h2>
+        <p>Hi, I'm . I interested in the Full Stack Devoloper.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>java</li>
+        </ul>
+        <a href="Pandi Meena_M_Resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1:perfumy</h3>
+            <p>i'm create the project for gain knowledge to design the web pages format</p>
+            <a href="perfumy project/index.html">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2:food</h3>
+            <p>i'm create the project for gain knowledge to design the web pages format</p>
+            <a href="food/index.html">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 3:event</h3>
+            <p>i'm create the project for gain knowledge to design the web pages format</p>
+            <a href="event/event N.html">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 4:Booksy</h3>
+            <p>i'm create the project for gain knowledge to design the web pages format</p>
+            <a href="Booksy/index.html">View Project</a>
+        </div>
+        </div>
+        </div>
+        
+    </section>
+
+    
+    <section id="contact">
+        <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Enter  Your Mail id" required>
+            <textarea id="message" placeholder="Type your message here..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </section>
+
+    <footer>
+        <p> @ 2025 Pandi Meena. All Rights Reserved.</p>
+    </footer>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
